@@ -11,3 +11,21 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+To run get a copy of this project locally and to set it up nicely, follow the folling steps:
+
+- Clone this repository by typing this command on your terminal
+
+`git clone git@github.com:ObelusFamily/Anythink-Market-hf940.git`
+
+- Install [Docker](https://docs.docker.com/get-docker/) which will be used to runthe application
+
+- After installing Docker, you can verify that it is working properly by running the following commands
+
+```
+docker -v
+docker-compose -v
+```
+
+- Change directory to the project root directory and run `docker-compose up`
+
